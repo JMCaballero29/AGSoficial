@@ -4000,6 +4000,23 @@ input[type="button"].btn-block {
   display: block;
 }
 
+#logo{
+  width: 110px;
+  height: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 768px){
+  #logo{
+    width: 100px;
+  }
+}
+@media (max-width: 480px){
+  #logo{
+    width: 90px;
+  }
+}
+
 .navbar {
   position: relative;
   display: flex;
