@@ -18,6 +18,15 @@
         $(window).resize(toggleNavbarMethod);
     });
     
+    $(document).ready(function(){
+        $('.slider').slick({
+            dots: true,         // Muestra los puntos de navegación
+            infinite: true,     // Habilita el desplazamiento infinito
+            speed: 300,         // Velocidad de transición
+            slidesToShow: 1,    // Número de slides visibles
+            adaptiveHeight: true // Altura adaptable
+        });
+    });
     
     // Back to top button
     $(window).scroll(function () {
